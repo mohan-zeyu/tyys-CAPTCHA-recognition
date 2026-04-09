@@ -1,0 +1,12 @@
+[project]
+name = "Verification-code-recognition-for-booking-venues"
+version = "0.1.0"
+description = "Base64 encoding used to receive CAPTCHA images, sequentially recognizing the coordinates of the required text within the image."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "ddddocr>=1.6.1",
+    "numpy>=2.4.4",
+    "pillow>=12.2.0",
+    "scipy>=1.17.1",
+]
