@@ -36,7 +36,7 @@ uv sync
 1. Save the `/captcha/get` JSON response to a file:
 
    `Source`: The json response of  `get?captchaType....` request.
-   <img src="/Users/mohan/Library/Application Support/typora-user-images/image-20260409233154199.png" alt="image-20260409233154199" style="zoom:50%;" />
+   <img src="assets/request.png" alt="image-20260409233154199" style="zoom:50%;" />
 
    
 
