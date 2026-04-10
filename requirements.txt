@@ -1,3 +1,4 @@
 ddddocr
 Pillow
 numpy
+scipy
