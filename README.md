@@ -1,7 +1,13 @@
 # aj-captcha clickWord OCR POC
 
 Solve aj-captcha `clickWord` type CAPTCHAs using ddddocr detection + multi-rotation classification.
-**It should be done around 1 second.**
+**It should be done around 1 second.** 
+
+## Results
+
+![captcha_annotated](assets/captcha_annotated.png)
+
+<img src="assets/result.png" alt="image-20260409234539984" style="zoom:50%;" />
 
 ## Setup
 
@@ -23,7 +29,6 @@ uv pip install -r requirements.txt
 
 # Or just (Recommended)
 uv sync
-uv run python pocv7.py captcha.json
 ```
 
 ## Usage
@@ -44,6 +49,9 @@ cat > captcha.json
 
 ```bash
 python pocv7.py captcha.json
+
+# with uv
+uv run python pocv7.py captcha.json
 ```
 
 3. Check `captcha_annotated.png` to visually verify detection boxes.
